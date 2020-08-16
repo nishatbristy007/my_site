@@ -15,15 +15,25 @@
             </svg>
           </span>
         </label>
-
+<!--
         <div class="trigger">
+          
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>         
             {%- endif -%}
           {%- endfor -%}
         </div>
+      -->
+        <div class="trigger">
+          <a class="page-link" href="/my_site/">Home</a><!--<a class="page-link" href="/my_site/">Home</a>-->
+          <a class="page-link" href="/my_site/Research/">Research</a><!--<a class="page-link" href="/my_site/Research/">Research</a>-->
+          <a class="page-link" href="/my_site/publication/">Publications</a><!--<a class="page-link" href="/my_site/publication/">Publications</a>-->
+          <a class="page-link" href="/my_site/Files/">Files</a><!--<a class="page-link" href="/my_site/Files/">Files</a>-->
+          <a class="page-link" href="/my_site/blog/">Blog</a><!--<a class="page-link" href="/my_site/blog/">Blog</a>-->
+          <a class="page-link" href="/my_site/contact/">Contact</a><!--<a class="page-link" href="/my_site/contact/">Contact</a>-->
+    </div>
       </nav>
     {%- endif -%}
   </div>
