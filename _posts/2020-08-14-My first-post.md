@@ -6,3 +6,6 @@ categories: jekyll update
 ---
 Hello!
 Right now, I do not have much to show and say. I hope I will add many more through this journey!
+
+Regards,
+Nishat.
