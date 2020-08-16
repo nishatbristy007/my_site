@@ -24,13 +24,22 @@ description:
   
 baseurl: "/my_site" # the subpath of your site, e.g. /blog
 url: "nishatbristy007.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  nishatbristy007
-linkedin_username: hello
+github_username:  gnishatbristy007
+linkedin_username: nishat-anjum-646a75128
+
+#navbar-links:
+#  Home: "about"
+#  Files: "Files"
+#  Research:
+#    - Experience: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Author's home: "https://deanattali.com"
 
 # Build settings
 # theme: minima
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
